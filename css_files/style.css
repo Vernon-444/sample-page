@@ -228,7 +228,10 @@ footer .glyphicon {
 
 #globe-icon {
   color: #0000FF;
-  background-image: radial-gradient(rgba(0,255,0,1) 10%, rgba(0,255,0,0)60%);
+  background-image: radial-gradient(rgba(0,255,0,1) 10%, rgba(0,0,255,1)60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   border-radius: 100%;
   border: none;
   width: 10%;
