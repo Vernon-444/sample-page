@@ -186,22 +186,6 @@ footer .glyphicon {
     -webkit-transform: translateY(0%);
   }
 }
-@media screen and (max-width: 768px) {
-  .col-sm-4 {
-    text-align: center;
-    margin: 25px 0;
-    padding-top: 20px;
-  }
-  .btn-lg {
-    width: 100%;
-    margin-bottom: 35px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .logo {
-    font-size: 150px;
-  }
-}
 
 #testimony-header {
   padding: 9px;
@@ -247,8 +231,24 @@ footer .glyphicon {
   background-image: radial-gradient(rgba(0,255,0,1) 10%, rgba(0,255,0,0)60%);
   border-radius: 100%;
   border: none;
-  width: 240px;
+  width: 10%;
   height: 240px;
   text-align:center;
 }
 
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+    padding-top: 20px;
+  }
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* .logo {
+    font-size: 150px;
+  } */
+}
