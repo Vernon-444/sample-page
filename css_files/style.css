@@ -223,7 +223,7 @@ footer .glyphicon {
 
 
 #services {
-  background-image: url(../images/services-background-img.jpg);
+  background-image: url(https://vernon-444.github.io/jf-reality/images/services-background-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -234,14 +234,13 @@ footer .glyphicon {
 }
 
 #about {
-  background-image: url(../images/company-background.jpg);
+  background-image: url(https://vernon-444.github.io/jf-reality/images/landscape.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
 }
-
 
 #globe-icon {
   color: #0000FF;
